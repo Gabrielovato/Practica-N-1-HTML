@@ -1,0 +1,5 @@
+La principal diferencia es la selección múltiple. 
+En el primer caso, solo se puede seleccionar
+una opción.
+En el segundo caso, se pueden seleccionar ambas 
+porque cambia el name = opcion
