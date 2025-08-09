@@ -1,0 +1,61 @@
+2.a) <!-- Código controlado el día 12/08/2009-->
+sección:puede colocarse en cualquier parte del documento HTML.
+efecto: no produce efectos visibles en la página. Es un comentario, nota, recordatorio para el desarrollador.
+elementos, etiquetas, atributos:no se considera elemento, etiqueta o atributo.
+
+2.b) <div id="bloque1">Contenido del bloque1</div>
+
+-sección: <body>
+-efecto: Define una división o contenedor genérico en la página. 
+Se muestra el texto en pantalla como parte de un bloque.
+-elemento: div
+-etiquetas: <div> y </div>
+-atributo: id
+    nombre: id
+    valor: "bloque1"
+    obligatorio?: no, es opcional para dar un id unico al elemento.
+
+
+2.c) <img src="im1" alt="lugar imagen" id="im1" name="im1" width="32" height="32" longdesc="detalles.htm" />
+
+-sección: <body>
+-efecto: inserta una imagen en la página.
+-elemento: img
+-etiqueta: <img />
+-atributos:
+    src: especifica la ruta de la imagen. Valor: "im1". Es obligatorio.
+    alt: proporciona un texto alternativo. Valor: "lugar imagen". Es obligatorio en la mayoria de los casos para accesibilidad.
+    id: identificador único. Valor: "im1". No es obligatorio.
+    name: es un atributo heredado. Valor: "im1". No es obligatorio
+    width: ancho de la imagen. Valor: "32". No es obligatorio
+    height: alto de la imagen. Valor "32". No es obligatorio
+    longdesc: enlace a una descripcion larga. Valor: "detalles.htm". No es obligatorio
+
+2.d) <meta name="keywords" lang="es" content="casa, compra, venta, alquiler " />
+<meta http-equiv="expires" content="16-Sep-2019 7:49 PM" />
+
+sección:<head>
+efecto: no tiene efecto visual en la página.
+elemento: meta (dos veces)
+etiqueta: <meta />
+atributos meta1:
+    name. valor: "keywords". Es obligatorio.
+    lang: idioma del contenido. Valor: "es". No es obligatorio.
+    content. Valor: "casa, compra, venta, alquiler". Es obligatorio
+atributos meta2:
+    http-equiv. Valor: "expires". Es obligatorio
+    content. Valor: "16-Sep-2019 7:49". Es obligatorio
+
+2.e) <a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8"
+rel="help">Resumen HTML </a>
+
+sección: <body>
+efecto: crea un hipervinculo, se muestra un enlace.
+elemento: a
+etiquetas: <a> </a>
+atributos:
+    href: es obligatorio para que funcione como un enlace. Valor: "http://www.e-style.com.ar/resumen.html"
+    type: tipo de contenido del recurso enlazado. Valor: "text/html". No es obligatorio.
+    hreflang: idioma del recurso enlazado. Valor: "es". No es obligatorio.
+    charset: codificacion de caracteres del recurso. Valor: "utf-8". No es obligatorio.
+    rel: relacion entre los documentos. Valor: "help". No es obligatorio.
