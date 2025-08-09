@@ -1,6 +1,0 @@
-En el primer caso, podemos observar que la lista 
-puede seleccionarse con una flecha; es más 
-específica y ordenada.
-En el segundo caso, más desordenado y caótico, 
-la lista se arrastra con una barra hasta seleccionar
-la deseada.
