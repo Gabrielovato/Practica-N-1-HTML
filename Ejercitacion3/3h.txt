@@ -1,0 +1,41 @@
+En el primer sistema de LogIn, El usuario se escribe
+con "xxx" y la clave es oculta. 
+En el segundo sistema de LogIn, el usuario es visible 
+y la clave también
+En el tercer sistema de LogIn, el usuario es visible
+pero no la clave no lo es.
+
+Diferencias principales
+Destino (action)
+
+Form1 → PHP en el servidor.
+
+Form2 → Misma página.
+
+Form3 → Correo electrónico.
+
+Método de envío (method)
+
+Form1 → POST (oculto en el cuerpo de la petición).
+
+Form2 → GET (visible en la URL).
+
+Form3 → POST (pero vía mailto).
+
+Seguridad de campos
+
+Form1 y Form3 → contraseña oculta (type="password").
+
+Form2 → contraseña visible (type="text").
+
+Estructura y accesibilidad
+
+Form1 y Form3 usan <fieldset> y <legend>.
+
+Form2 usa <label> pero sin <fieldset>.
+
+Botón
+
+Form1 y Form2 → submit (correcto).
+
+Form3 → reset pero mal rotulado como "Enviar" (error funcional).

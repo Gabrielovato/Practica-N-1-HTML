@@ -1,0 +1,4 @@
+La principal diferencia es el formato de los botones
+por el "img src"; en el primer caso, solo admite
+formato de imágen, y en el segundo, es un botón sin 
+imágen.
